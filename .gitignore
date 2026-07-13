@@ -1,0 +1,7 @@
+*.xcodeproj/
+.DS_Store
+build/
+DerivedData/
+*.xcarchive
+*.ipa
+AppStoreScreenshots/*-source.png
