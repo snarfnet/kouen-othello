@@ -12,7 +12,12 @@ targets:
   KouenOthello:
     type: application
     platform: iOS
-    sources: [KouenOthello]
+    sources:
+      - path: KouenOthello
+        excludes:
+          - Web
+      - path: KouenOthello/Web
+        type: folder
     info:
       path: KouenOthello/Info.plist
       properties:
