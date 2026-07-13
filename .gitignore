@@ -5,3 +5,5 @@ DerivedData/
 *.xcarchive
 *.ipa
 AppStoreScreenshots/*-source.png
+
+.omc/
